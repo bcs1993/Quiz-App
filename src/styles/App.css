@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
-  --primary-color: #0DFF92;
+  --primary-color: #251fc0;
   --dark-color: #222222;
   --light-color: #f0f0f0;
+  --pink-color: #e586c1;
 }
 
 body,
 html {
   height: 100%;
-  background: var(--dark-color)
+  background: linear-gradient(to right, var(--dark-color), var(--light-color));
 }
-
 *>* {
   font-family: 'Poppins', sans-serif;
 }
@@ -77,12 +77,13 @@ html {
 }
 
 .next {
-  background-color: var(--primary-color);
+  color:  #211ad3;
+  background-color: var(--dark-color);
   justify-self: flex-end;
 }
 
 .prev {
-  background-color: #faff5a;
+  background-color: #251ef7;
   justify-self: flex-start;
 }
 
